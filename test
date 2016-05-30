@@ -1,0 +1,3 @@
+javac -d bin -sourcepath src -cp "lib/*" src/ToDoServlet.java
+javac -d bin -sourcepath src -cp "lib/*" src/ToDoTest.java
+java -cp "bin:lib/*" org.junit.runner.JUnitCore ToDoTest

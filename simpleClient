@@ -1,0 +1,2 @@
+javac -d bin -sourcepath src -cp "lib/*" src/ToDoServlet.java
+java -cp "bin:lib/*" ToDoServlet
